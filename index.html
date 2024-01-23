@@ -97,32 +97,28 @@
     <header class="carousel mx-5 lg:mx-32 z-10">
       <div id="slide1" class="carousel-item relative w-full">
         <img src="Images/1.png" class="w-full" />
-        <div class="absolute left-6 bottom-6">
+        <div class="absolute left-6 bottom-6 z-30">
           <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
           <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
         </div>
       </div>
       <div id="slide2" class="carousel-item relative w-full">
         <img src="Images/2.png" class="w-full" />
-        <div
-          class="absolute flex justify-center items-end left-5 right-5 bottom-6"
-        >
+        <div class="absolute left-6 bottom-6 z-30">
           <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
           <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
         </div>
       </div>
       <div id="slide3" class="carousel-item relative w-full">
         <img src="Images/3.png" class="w-full" />
-        <div
-          class="absolute flex justify-center items-end left-5 right-5 bottom-6"
-        >
+        <div class="absolute left-6 bottom-6 z-30">
           <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
           <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
         </div>
       </div>
     </header>
     <section
-      class="flex justify-center items-center lg:justify-end w-full lg:px-40 lg:-mt-44 z-20 lg:relative"
+      class="flex justify-center items-center lg:justify-end w-full lg:px-36 lg:-mt-48 z-20 lg:relative"
     >
       <div class="bg-kala rounded-xl p-4 m-4 max-w-lg">
         <h2 class="text-lg lg:text-2xl text-white font-extrabold">
@@ -153,7 +149,9 @@
       </section>
 
       <!-- Percentage  -->
-      <section class="flex flex-col justify-center items-center my-6 space-y-6">
+      <section
+        class="flex flex-col lg:flex-row justify-center items-center my-6 space-y-6"
+      >
         <!-- Box 1 -->
         <div class="mx-16 flex flex-col items-center space-y-4">
           <div
@@ -222,29 +220,40 @@
 
       <!-- Program Section  -->
       <section class="w-full border-dashed border-y space-y-4 p-4 my-10">
-        <h2 class="text-kala text-center text-[22px] font-extrabold">
+        <h2
+          class="text-kala text-center text-[22px] font-extrabold lg:text-4xl"
+        >
           Program Sections
         </h2>
-        <p class="text-halkaKala text-center text-sm font-medium">
+        <p
+          class="text-halkaKala text-center text-sm font-medium max-w-[607px] mx-auto lg:text-base leading-6"
+        >
           This website is licensed under the MIT license that is available on
           the web site at HockeykeysClub. You can download
         </p>
       </section>
 
       <!-- Program Section  -->
-      <section class="flex flex-col gap-6">
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <!-- card 1 -->
         <div class="card image-full">
           <figure>
-            <img src="Images/2.png" alt="Hockey" />
+            <img src="Images/2.png" alt="Hockey" class="w-full" />
           </figure>
-          <div class="card-body space-y-3">
-            <h2 class="card-title text-xl font-extrabold text-white">
+          <div
+            class="z-10 gap-3 p-6 lg:gap-4 lg:p-10 flex flex-col justify-center lg:justify-end"
+          >
+            <h2
+              class="card-title text-xl font-extrabold text-white lg:mt-24 lg:text-3xl"
+            >
               Junior Program
             </h2>
-            <p class="text-sm font-medium text-white leading-6">
+            <p
+              class="text-sm font-medium text-white leading-7 lg:max-w-[520px] lg:text-base"
+            >
               We organized Junior level Program where students are allowed to
-              participate in different activities and participate
+              receive messages from participate in different activities and
+              participate
             </p>
             <div class="card-actions">
               <button class="btn bg-moulik text-white border-none text-lg">
@@ -256,15 +265,22 @@
         <!-- card 2 -->
         <div class="card image-full">
           <figure>
-            <img src="Images/3.png" alt="Hockey" />
+            <img src="Images/3.png" alt="Hockey" class="w-full" />
           </figure>
-          <div class="card-body space-y-3">
-            <h2 class="card-title text-xl font-extrabold text-white">
+          <div
+            class="z-10 gap-3 p-6 lg:gap-4 lg:p-10 flex flex-col justify-center lg:justify-end"
+          >
+            <h2
+              class="card-title text-xl font-extrabold text-white lg:mt-24 lg:text-3xl"
+            >
               Teenager Program
             </h2>
-            <p class="text-sm font-medium text-white leading-6">
+            <p
+              class="text-sm font-medium text-white leading-6 lg:max-w-[495px] lg:text-base"
+            >
               We organized Junior level Program where students are allowed to
-              participate in different activities and participate
+              participate in different activities and different activities and
+              participate in different
             </p>
             <div class="card-actions">
               <button class="btn bg-moulik text-white border-none text-lg">
@@ -274,17 +290,24 @@
           </div>
         </div>
         <!-- card 3 -->
-        <div class="card image-full">
+        <div class="card image-full lg:col-span-2">
           <figure>
-            <img src="Images/4.png" alt="Hockey" />
+            <img src="Images/4.png" alt="Hockey" class="w-full" />
           </figure>
-          <div class="card-body space-y-3">
-            <h2 class="card-title text-xl font-extrabold text-white">
+          <div
+            class="z-10 gap-3 p-6 lg:gap-4 lg:p-10 flex flex-col justify-center lg:justify-end"
+          >
+            <h2
+              class="card-title text-xl font-extrabold text-white lg:mt-24 lg:text-3xl"
+            >
               Professional Program
             </h2>
-            <p class="text-sm font-medium text-white leading-6">
+            <p
+              class="text-sm font-medium text-white leading-6 lg:max-w-[495px] lg:text-base"
+            >
               We organized Junior level Program where students are allowed to
-              participate in different activities and participate
+              all receive information participate in different activities and
+              participate
             </p>
             <div class="card-actions">
               <button class="btn bg-moulik text-white border-none text-lg">
@@ -297,19 +320,23 @@
 
       <!-- Product Section  -->
       <section class="w-full border-dashed border-y space-y-4 p-4 my-10">
-        <h2 class="text-kala text-center text-[22px] font-extrabold">
+        <h2
+          class="text-kala text-center text-[22px] font-extrabold lg:text-4xl"
+        >
           Our New Products
         </h2>
-        <p class="text-halkaKala text-center text-sm font-medium">
+        <p
+          class="text-halkaKala text-center text-sm font-medium max-w-[607px] mx-auto lg:text-base leading-6"
+        >
           We have some exciting new products available for our customers to
           purchase with our new products and products available
         </p>
       </section>
 
       <!-- product cards section  -->
-      <section class="flex flex-col gap-6">
-        <div class="card border">
-          <figure class="px-6 pt-6">
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="card border lg:flex-row lg:justify-center lg:items-center">
+          <figure class="px-6 pt-6 lg:pl-6 lg:pt-0 lg:px-0">
             <img src="Images/5.png" alt="Shoes" class="rounded-xl w-full" />
           </figure>
           <div class="card-body space-y-3">
@@ -331,22 +358,24 @@
             <h2 class="card-title text-kala text-xl font-extrabold">
               World Cup Flags Football
             </h2>
-            <p class="text-halkaKala text-base font-medium">
+            <p class="text-halkaKala text-base font-medium leading-6">
               This is a world cup flas football t shirt with awsome flags kit
             </p>
-            <h3 class="text-moulik text-lg font-extrabold leading-7">
-              Price - $22.00
-            </h3>
-            <div class="card-actions flex">
-              <img src="svg/cart.svg" />
+
+            <div class="card-actions flex flex-col lg:flex-row">
+              <h3 class="text-moulik text-lg font-extrabold leading-7">
+                Price - $22.00
+              </h3>
+
               <span class="text-halkaKala text-base font-medium"
-                >Delivery Fee : Free</span
+                ><img src="svg/cart.svg" class="inline pr-2" />Delivery Fee :
+                Free</span
               >
             </div>
           </div>
         </div>
-        <div class="card border">
-          <figure class="px-6 pt-6">
+        <div class="card border lg:flex-row lg:justify-center lg:items-center">
+          <figure class="px-6 pt-6 lg:pl-6 lg:pt-0 lg:px-0">
             <img src="Images/6.png" alt="Shoes" class="rounded-xl w-full" />
           </figure>
           <div class="card-body space-y-3">
@@ -368,22 +397,24 @@
             <h2 class="card-title text-kala text-xl font-extrabold">
               World Cup Flags Football
             </h2>
-            <p class="text-halkaKala text-base font-medium">
+            <p class="text-halkaKala text-base font-medium leading-6">
               This is a world cup flas football t shirt with awsome flags kit
             </p>
-            <h3 class="text-moulik text-lg font-extrabold leading-7">
-              Price - $22.00
-            </h3>
-            <div class="card-actions flex">
-              <img src="svg/cart.svg" />
+
+            <div class="card-actions flex flex-col lg:flex-row">
+              <h3 class="text-moulik text-lg font-extrabold leading-7">
+                Price - $22.00
+              </h3>
+
               <span class="text-halkaKala text-base font-medium"
-                >Delivery Fee : Free</span
+                ><img src="svg/cart.svg" class="inline pr-2" />Delivery Fee :
+                Free</span
               >
             </div>
           </div>
         </div>
-        <div class="card border">
-          <figure class="px-6 pt-6">
+        <div class="card border lg:flex-row lg:justify-center lg:items-center">
+          <figure class="px-6 pt-6 lg:pl-6 lg:pt-0 lg:px-0">
             <img src="Images/7.png" alt="Shoes" class="rounded-xl w-full" />
           </figure>
           <div class="card-body space-y-3">
@@ -405,22 +436,24 @@
             <h2 class="card-title text-kala text-xl font-extrabold">
               World Cup Flags Football
             </h2>
-            <p class="text-halkaKala text-base font-medium">
+            <p class="text-halkaKala text-base font-medium leading-6">
               This is a world cup flas football t shirt with awsome flags kit
             </p>
-            <h3 class="text-moulik text-lg font-extrabold leading-7">
-              Price - $22.00
-            </h3>
-            <div class="card-actions flex">
-              <img src="svg/cart.svg" />
+
+            <div class="card-actions flex flex-col lg:flex-row">
+              <h3 class="text-moulik text-lg font-extrabold leading-7">
+                Price - $22.00
+              </h3>
+
               <span class="text-halkaKala text-base font-medium"
-                >Delivery Fee : Free</span
+                ><img src="svg/cart.svg" class="inline pr-2" />Delivery Fee :
+                Free</span
               >
             </div>
           </div>
         </div>
-        <div class="card border">
-          <figure class="px-6 pt-6">
+        <div class="card border lg:flex-row lg:justify-center lg:items-center">
+          <figure class="px-6 pt-6 lg:pl-6 lg:pt-0 lg:px-0">
             <img src="Images/8.png" alt="Shoes" class="rounded-xl w-full" />
           </figure>
           <div class="card-body space-y-3">
@@ -442,22 +475,24 @@
             <h2 class="card-title text-kala text-xl font-extrabold">
               World Cup Flags Football
             </h2>
-            <p class="text-halkaKala text-base font-medium">
+            <p class="text-halkaKala text-base font-medium leading-6">
               This is a world cup flas football t shirt with awsome flags kit
             </p>
-            <h3 class="text-moulik text-lg font-extrabold leading-7">
-              Price - $22.00
-            </h3>
-            <div class="card-actions flex">
-              <img src="svg/cart.svg" />
+
+            <div class="card-actions flex flex-col lg:flex-row">
+              <h3 class="text-moulik text-lg font-extrabold leading-7">
+                Price - $22.00
+              </h3>
+
               <span class="text-halkaKala text-base font-medium"
-                >Delivery Fee : Free</span
+                ><img src="svg/cart.svg" class="inline pr-2" />Delivery Fee :
+                Free</span
               >
             </div>
           </div>
         </div>
-        <div class="card border">
-          <figure class="px-6 pt-6">
+        <div class="card border lg:flex-row lg:justify-center lg:items-center">
+          <figure class="px-6 pt-6 lg:pl-6 lg:pt-0 lg:px-0">
             <img src="Images/9.png" alt="Shoes" class="rounded-xl w-full" />
           </figure>
           <div class="card-body space-y-3">
@@ -479,22 +514,24 @@
             <h2 class="card-title text-kala text-xl font-extrabold">
               World Cup Flags Football
             </h2>
-            <p class="text-halkaKala text-base font-medium">
+            <p class="text-halkaKala text-base font-medium leading-6">
               This is a world cup flas football t shirt with awsome flags kit
             </p>
-            <h3 class="text-moulik text-lg font-extrabold leading-7">
-              Price - $22.00
-            </h3>
-            <div class="card-actions flex">
-              <img src="svg/cart.svg" />
+
+            <div class="card-actions flex flex-col lg:flex-row">
+              <h3 class="text-moulik text-lg font-extrabold leading-7">
+                Price - $22.00
+              </h3>
+
               <span class="text-halkaKala text-base font-medium"
-                >Delivery Fee : Free</span
+                ><img src="svg/cart.svg" class="inline pr-2" />Delivery Fee :
+                Free</span
               >
             </div>
           </div>
         </div>
-        <div class="card border">
-          <figure class="px-6 pt-6">
+        <div class="card border lg:flex-row lg:justify-center lg:items-center">
+          <figure class="px-6 pt-6 lg:pl-6 lg:pt-0 lg:px-0">
             <img src="Images/10.png" alt="Shoes" class="rounded-xl w-full" />
           </figure>
           <div class="card-body space-y-3">
@@ -516,16 +553,18 @@
             <h2 class="card-title text-kala text-xl font-extrabold">
               World Cup Flags Football
             </h2>
-            <p class="text-halkaKala text-base font-medium">
+            <p class="text-halkaKala text-base font-medium leading-6">
               This is a world cup flas football t shirt with awsome flags kit
             </p>
-            <h3 class="text-moulik text-lg font-extrabold leading-7">
-              Price - $22.00
-            </h3>
-            <div class="card-actions flex">
-              <img src="svg/cart.svg" />
+
+            <div class="card-actions flex flex-col lg:flex-row">
+              <h3 class="text-moulik text-lg font-extrabold leading-7">
+                Price - $22.00
+              </h3>
+
               <span class="text-halkaKala text-base font-medium"
-                >Delivery Fee : Free</span
+                ><img src="svg/cart.svg" class="inline pr-2" />Delivery Fee :
+                Free</span
               >
             </div>
           </div>
@@ -534,17 +573,21 @@
 
       <!-- Clients questions  -->
       <section class="w-full border-dashed border-y space-y-4 p-4 my-10">
-        <h2 class="text-kala text-center text-[22px] font-extrabold">
+        <h2
+          class="text-kala text-center text-[22px] font-extrabold lg:text-4xl"
+        >
           Clients Question
         </h2>
-        <p class="text-halkaKala text-center text-sm font-medium">
+        <p
+          class="text-halkaKala text-center text-sm font-medium lg:max-w-[607px] lg:text-base lg:mx-auto leading-6"
+        >
           We try our best to answer questions of our all clients and clients are
           very happy to our services
         </p>
       </section>
 
       <!-- FAQ  -->
-      <section class="card border">
+      <section class="card border flex flex-col lg:flex-row">
         <figure class="px-6 pt-6">
           <img src="Images/11.png" alt="Shoes" class="rounded-xl w-full" />
         </figure>
@@ -626,106 +669,119 @@
 
       <!-- Get in touch  -->
       <section class="w-full border-dashed border-y space-y-4 p-4 my-10">
-        <h2 class="text-kala text-center text-[22px] font-extrabold">
+        <h2
+          class="text-kala text-center text-[22px] font-extrabold lg:text-4xl"
+        >
           Get In Touch
         </h2>
-        <p class="text-halkaKala text-center text-sm font-medium">
+        <p
+          class="text-halkaKala text-center text-sm font-medium lg:max-w-[607px] lg:text-base leading-6 lg:mx-auto"
+        >
           You can also get touched with us by contacting us through the website
+          with the following instructions for creating
         </p>
       </section>
 
-      <section class="my-6 rounded-2xl p-6 border flex flex-col gap-4">
-        <div class="p-6 bg-[#BCED6D1A] rounded-2xl">
-          <figure class="mb-6">
-            <img src="Images/Group 1171275317.png" />
-          </figure>
-          <div class="text-lg font-extrabold leading-8 text-kala">
-            <span class="text-halkaKala">Phone Number:</span>
-            <p>(+62) 123-321-543</p>
+      <section class="flex flex-col lg:flex-row gap-6 my-12">
+        <div
+          class="rounded-2xl p-6 lg:p-12 border flex flex-col gap-4 lg:gap-6 lg:min-w-[474px]"
+        >
+          <div class="p-6 bg-[#BCED6D1A] rounded-2xl">
+            <figure class="mb-6">
+              <img src="Images/Group 1171275317.png" />
+            </figure>
+            <div class="text-lg font-extrabold leading-8 text-kala">
+              <span class="text-halkaKala">Phone Number:</span>
+              <p>(+62) 123-321-543</p>
+            </div>
+          </div>
+          <div class="p-6 bg-[#FDDD5F1A] rounded-2xl">
+            <figure class="mb-6">
+              <img src="Images/Group 1171275318.png" />
+            </figure>
+            <div class="text-lg font-extrabold leading-8 text-kala">
+              <span class="text-halkaKala">Email:</span>
+              <p>hockeys@support.com</p>
+            </div>
+          </div>
+          <div class="p-6 bg-[#629CF31A] rounded-2xl">
+            <figure class="mb-6">
+              <img src="Images/Group 1171275321.png" />
+            </figure>
+            <div class="text-lg font-extrabold leading-8 text-kala">
+              <span class="text-halkaKala">Location:</span>
+              <p>152/1 Mohakhali Wireless Gate</p>
+            </div>
           </div>
         </div>
-        <div class="p-6 bg-[#FDDD5F1A] rounded-2xl">
-          <figure class="mb-6">
-            <img src="Images/Group 1171275318.png" />
-          </figure>
-          <div class="text-lg font-extrabold leading-8 text-kala">
-            <span class="text-halkaKala">Email:</span>
-            <p>hockeys@support.com</p>
-          </div>
-        </div>
-        <div class="p-6 bg-[#629CF31A] rounded-2xl">
-          <figure class="mb-6">
-            <img src="Images/Group 1171275321.png" />
-          </figure>
-          <div class="text-lg font-extrabold leading-8 text-kala">
-            <span class="text-halkaKala">Location:</span>
-            <p>152/1 Mohakhali Wireless Gate</p>
-          </div>
-        </div>
-      </section>
 
-      <form class="flex flex-col gap-5">
-        <label class="form-control w-full">
-          <div class="label">
-            <span class="label-text text-kala text-xl font-bold"
-              >Your Name</span
-            >
-          </div>
+        <form class="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full">
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text text-kala text-xl font-bold"
+                >Your Name</span
+              >
+            </div>
+            <input
+              type="text"
+              placeholder="Enter your full name"
+              class="input bg-[#13131808] rounded-xl h-16 w-full"
+            />
+          </label>
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text text-kala text-xl font-bold"
+                >Your Email</span
+              >
+            </div>
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="input bg-[#13131808] rounded-xl h-16 w-full"
+            />
+          </label>
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text text-kala text-xl font-bold"
+                >Subject</span
+              >
+            </div>
+            <input
+              type="text"
+              placeholder="Enter your subject"
+              class="input bg-[#13131808] rounded-xl h-16 w-full"
+            />
+          </label>
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text text-kala text-xl font-bold"
+                >Phone Number</span
+              >
+            </div>
+            <input
+              type="text"
+              placeholder="Enter your phone number"
+              class="input bg-[#13131808] rounded-xl h-16 w-full"
+            />
+          </label>
+          <label class="form-control w-full lg:col-span-2">
+            <div class="label">
+              <span class="label-text text-kala text-xl font-bold"
+                >Message</span
+              >
+            </div>
+            <textarea
+              placeholder="Enter your message"
+              class="textarea bg-[#13131808] h-48 lg:h-80"
+            ></textarea>
+          </label>
           <input
-            type="text"
-            placeholder="Enter your full name"
-            class="input bg-[#13131808] rounded-xl h-16 w-full"
+            type="submit"
+            value="Send Message"
+            class="btn bg-moulik text-white text-xl font-bold m-1 lg:col-span-2 rounded-xl"
           />
-        </label>
-        <label class="form-control w-full">
-          <div class="label">
-            <span class="label-text text-kala text-xl font-bold"
-              >Your Email</span
-            >
-          </div>
-          <input
-            type="text"
-            placeholder="Enter your email"
-            class="input bg-[#13131808] rounded-xl h-16 w-full"
-          />
-        </label>
-        <label class="form-control w-full">
-          <div class="label">
-            <span class="label-text text-kala text-xl font-bold">Subject</span>
-          </div>
-          <input
-            type="text"
-            placeholder="Enter your subject"
-            class="input bg-[#13131808] rounded-xl h-16 w-full"
-          />
-        </label>
-        <label class="form-control w-full">
-          <div class="label">
-            <span class="label-text text-kala text-xl font-bold"
-              >Phone Number</span
-            >
-          </div>
-          <input
-            type="text"
-            placeholder="Enter your phone number"
-            class="input bg-[#13131808] rounded-xl h-16 w-full"
-          />
-        </label>
-        <label class="form-control w-full">
-          <div class="label">
-            <span class="label-text text-kala text-xl font-bold">Message</span>
-          </div>
-          <textarea
-            placeholder="Enter your message"
-            class="textarea bg-[#13131808] h-48"
-          ></textarea>
-        </label>
-        <input
-          type="submit"
-          value="Send Message"
-          class="btn bg-moulik text-white text-xl font-bold m-1"
-        />
-      </form>
+        </form>
+      </section>
 
       <!-- Social Media -->
       <section
@@ -737,10 +793,10 @@
         <img src="svg/social-media.svg" />
       </section>
     </main>
-    <footer class="footer p-10 bg-kala text-white text-center">
-      <aside class="flex flex-col items-center justify-center gap-4">
+    <footer class="footer px-10 py-10 bg-kala text-white text-center lg:text-left lg:px-32 lg:py-24">
+      <aside class="flex flex-col items-center justify-center lg:items-start gap-4">
         <h2 class="text-2xl font-extrabold">Get In Touch</h2>
-        <p class="text-[#FFFFFF99] font-base font-medium leading-7">
+        <p class="text-[#FFFFFF99] font-base font-medium leading-7 lg:max-w-[346px]">
           You can also get touched with us by contacting us through the website
           and contact us directly.
         </p>
@@ -754,9 +810,9 @@
           (+62) 123-321-543
         </p>
       </aside>
-      <div class="flex flex-wrap gap-10 justify-center px-4">
+      <div class="flex flex-wrap gap-10 justify-center px-4 lg:justify-between w-full">
         <nav class="flex flex-col">
-          <header class="footer-title text-white text-lg font-bold mb-6">
+          <header class="text-white text-lg font-bold mb-6">
             Company
           </header>
           <a
@@ -781,7 +837,7 @@
           >
         </nav>
         <nav class="flex flex-col">
-          <header class="footer-title text-white text-lg font-bold mb-6">
+          <header class="text-white text-lg font-bold mb-6">
             Support
           </header>
           <a
@@ -802,7 +858,7 @@
           >
         </nav>
         <nav class="flex flex-col">
-          <header class="footer-title text-white text-lg font-bold mb-6">
+          <header class="text-white text-lg font-bold mb-6">
             Services
           </header>
           <a
